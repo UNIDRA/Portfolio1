@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <!--This part of the code links the HTML files with the bootstrap.css file which allows the use of bootstrap-->
+  <title>Home</title>
+  <!--This part of the code titles the website's tab to whatever is written-->
+</head>
+<body style='background-image: linear-gradient(rgba(255,255,255,1), rgba(204,255,255,1));'>
+  <header class='container'>
+    <!--The header contains a container which contain all the elements we put in, specifically the navigation bar-->
+    <div class='row justify-content-center'>
+      <nav class='nav nav-fill nav-pills'>
+        <a class='nav-link active nav-item' href='index.html' style='padding-left: 79px; padding-right: 79px;'>Home</a>
+        <a class='nav-link nav-item' href='Nayak_AboutMe.html' style='padding-left: 79px; padding-right: 79px;'>About Me</a>
+        <a class='nav-link nav-item' href='Nayak_Resume.html' style='padding-left: 79px; padding-right: 79px;'>Resume</a>
+        <a class='nav-link nav-item' href='Nayak_Projects.html' style='padding-left: 79px; padding-right: 79px;'>Projects</a>
+        <a class='nav-link nav-item' href='Nayak_ContactMe.html' style='padding-left: 79px; padding-right: 79px;'>Contact Me</a>
+        <!--The nav contains many links that take the user to different sites in order to view different information. Active link is highlighted on the page.-->
+      </nav>
+    </div>
+  </header>
+  <section class='jumbotron' style='background-image: url(sparkle.jpeg)'>
+    <div class='container'>
+      <div class='row justify-content-center'>
+        <h1>Anmol Nayak</h1>
+      </div>
+      <div class='row justify-content-center'>
+        <p>Aspiring Student programmer willing to learn more code and has interest in Video Game Making. Aspiring Video Game Designer/Programmer.
+      </div>
+      <div class='row justify-content-center'>
+        <a class='btn btn-primary' href='Nayak_AboutMe.html' role='button'>Learn More</a>
+    </div>
+  </section>
+  <section class='container'>
+    <div class='row'>
+        <figure class='col-sm-3'>  <!--Each card is 6 collumns wide in a row within a container and the text is always sm to always fit on any screen-->
+          <h3>Volunteer Expirence</h3>
+          <p>Currently have 5 hours of Volunteering expirence by working in...</p> <!--Puts elements on left side of card-->
+          <a href='Nayak_Resume.html' role='button' class='btn btn-primary'>Continue Reading</a> <!--Makes a button that takes the user to the designated site-->
+        </figure>
+        <div class='col-sm-3'>
+          <img src='Images/John Green Logo jpeg.jpg' class='img-fluid float-right rounded d-flex-inline'/> 
+          <!--An image from the image file where the image is to the right of the collumn and styled to fit nicely on the user's screen-->
+        </div>
+        <figure class='col-sm-3'>
+          <h3>Computer Science Principles</h3>
+          <p>Takes CSP at Dublin High School to learn...</p> <!--Puts elements on left side of card-->
+          <a href='Nayak_Resume.html' role='button' class='btn btn-primary'>Continue Reading</a> <!--Makes a button that takes the user to the designated site-->
+        </figure>
+        <div class='col-sm-3'>
+          <img src='Images/PLTWW.jpg' class='img-fluid float-right rounded d-flex-inline' style='height: 200px; width: auto; padding-right: 50px;'/> <!--An image from the image file where the image is to the right of the collumn and styled to fit nicely on the user's screen-->
+        </div>
+    </div>
+    <div class='row'>
+        <figure class='col-sm-3' style='padding-top: 50px'>
+          <h3>MIT App Inventor</h3>
+          <p>One of my completed projects is of using MIT App Inventor to...</p> <!--Puts elements on left side of card-->
+          <a href='Nayak_Projects.html' role='button' class='btn btn-primary'>Continue Reading</a> <!--Makes a button that takes the user to the designated site-->
+        </figure>
+        <div class='col-sm-3'>
+          <img src='Screen Shot 2019-10-08 at 12.36.15 AM.png' class='img-fluid rounded d-flex-inline' style='height: 300px; width: auto; padding-bottom: 50px; padding-left: 50px;'/> <!--An image from the image file where the image is to the right of the collumn and styled to fit nicely on the user's screen-->
+        </div>
+        <figure class='col-sm-3' style='padding-top: 50px;'>
+          <h3>Scratch</h3>
+          <p>One of my projects is made in Scratch and it...</p> <!--Puts elements on left side of card-->
+          <a href='Nayak_Projects.html' role='button' class='btn btn-primary'>Continue Reading</a> <!--Makes a button that takes the user to the designated site-->
+        </figure>
+        <div class='col-sm-3'>
+          <img src='Images/Capture.PNG' class='img-fluid float-right rounded d-flex-inline' style='padding-top: 50px;'/> <!--An image from the image file where the image is to the right of the collumn and styled to fit nicely on the user's screen-->
+        </div>
+      </div>
+  </section>
+  <footer class='jumbotron' style='background-image: url(sparkle.jpeg)'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-6'> <!--Places the first two images on the first half of the website-->
+          <a href='mailto:getcashforapps.nayak@gmail.com' target="_blank"><img src='Images/gmail.png' class='float-left img-fluid-footericons' alt='Link to contact via gmail'></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+          <a href='https://www.reddit.com/user/UNICORN-and-a-DRAGON/' target="_blank"><img src='Images/reddit.png' class='float-right img-fluid-footericons' alt='Link to contact via reddit'></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+        </div>
+        <div class='col-6'> <!--Second half of the page so that the element can be on the very right side-->
+          <a href='https://www.dublin.k12.ca.us/dhs' target="_blank"><img src='Images/DHS2.png' class='float-right' alt='Dublin High School logo'/></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

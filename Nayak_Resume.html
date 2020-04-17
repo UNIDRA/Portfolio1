@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <!--This part of the code links the HTML files with the bootstrap.css file which allows the use of bootstrap-->
+  <title>Resume</title>
+  <!--This part of the code titles the website's tab to whatever is written-->
+</head>
+<body style='background-image: linear-gradient(rgba(255,255,255,1), rgba(204,255,255,1));'>
+  <header class='container'>
+    <!--The header contains a container which contain all the elements we put in, specifically the navigation bar-->
+    <div class='row justify-content-center'>
+      <nav class='nav nav-fill nav-pills'>
+        <a class='nav-link nav-item' href='index.html' style='padding-left: 79px; padding-right: 79px;'>Home</a>
+        <a class='nav-link nav-item' href='Nayak_AboutMe.html' style='padding-left: 79px; padding-right: 79px;'>About Me</a>
+        <a class='nav-link active nav-item' href='Nayak_Resume.html' style='padding-left: 79px; padding-right: 79px;'>Resume</a>
+        <a class='nav-link nav-item' href='Nayak_Projects.html' style='padding-left: 79px; padding-right: 79px;'>Projects</a>
+        <a class='nav-link nav-item' href='Nayak_ContactMe.html' style='padding-left: 79px; padding-right: 79px;'>Contact Me</a>
+        <!--The nav contains many links that take the user to different sites in order to view different information. The active link is highlighted on the website-->
+      </nav>
+    </div>
+  </header>
+  <section class='jumbotron text-center' style='background-image: url(sparkle.jpeg)'>
+    <h1>Resume</h1>
+    <h3>Anmol Nayak</h3>
+    <!--Takes the entire width to put the title of the site-->
+  </section>
+    <section class='container'>
+      <h2>Anmol Nayak</h2>
+      <p>Computer Science Principles Student</p>
+      <p>GPA: 3.8</p>
+      <br><br>
+      <h3>Objective</h3>
+      <p>To attain a full-time job at the company's software development team</p>
+      <br><br>
+      <h3>Professional Profile</h3>
+      <p>Dublin High School student for almost a semester. Many years developing programming skills at Youngwonks coding school. Started with learning Python. Spending time on attempts to create a video game.</p>
+      <br><br>
+      <h3>Qualifications</h3>
+      <p>5 hours of volunteering done straight without stop. Taken outside Youngwonk coding classes. Taking CSP class in high school.</p>
+      <br><br>
+      <h3>Education and Grades</h3>
+      <h6>Dublin High School</h6>
+      <p>Freshman Student Graduation Year 2023</p>
+      <p>Dublin CA 2019-2023</p>
+      <ul style='list-style: none;'>
+        <li>Algebra 1: A+ (97.01%)</li>
+        <li>Biology: A (94.84%)</li>
+        <li>Computer Science Principles: A (93.9%)</li>
+        <li>English 1 Advanced: B+ (89.26)</li>
+        <li>Freshman P.E.: A+ (100%)</li>
+        <li>Freshman Seminar: A- (90.05%)</li>
+        <li>Spanish 2: A- (92.37%)</li>
+      </ul>
+      <br><br>
+      <h3>Skills and Abilities</h3>
+      <ul style='list-style: none;'>
+        <li>Great determination and motivation</li>
+        <li>Excellent dedication skills</li>
+        <li>Great algebraic skills</li>
+        <li>Fluent in Python, HTML, and CSS</li>
+      </ul>
+  </section>
+  <!--Gives a summary of my resume which list positive things about myself to convince the reader to hire me-->
+  <section class='container text-center'>
+    <div class='col-12'>
+      <a href='download.php?file=AnmolNayakResume.pdf' target="_blank" role='button' class='btn btn-primary'>Click here to download as PDF</a>
+      <!--Give the reader a download to my resume that gives them a pdf of my resume-->
+    </div>
+  </section>
+    <footer class='jumbotron' style='background-image: url(sparkle.jpeg)'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-6'> <!--Places the first two images on the first half of the website-->
+          <a href='mailto:getcashforapps.nayak@gmail.com' target="_blank"><img src='Images/gmail.png' class='float-left img-fluid-footericons' alt='Link to contact via gmail'></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+          <a href='https://www.reddit.com/user/UNICORN-and-a-DRAGON/' target="_blank"><img src='Images/reddit.png' class='float-right img-fluid-footericons' alt='Link to contact via reddit'></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+        </div>
+        <div class='col-6'> <!--Second half of the page so that the element can be on the very right side-->
+          <a href='https://www.dublin.k12.ca.us/dhs' target="_blank"><img src='Images/DHS2.png' class='float-right' alt='Dublin High School logo'/></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

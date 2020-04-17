@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <!--This part of the code links the HTML files with the bootstrap.css file which allows the use of bootstrap-->
+  <title>About Me</title>
+  <!--This part of the code titles the website's tab to whatever is written-->
+</head>
+<body style='background-image: linear-gradient(rgba(255,255,255,1), rgba(204,255,255,1));'>
+  <header class='container'>
+    <!--The header contains a container which contain all the elements we put in, specifically the navigation bar-->
+    <div class='row justify-content-center'>
+      <nav class='nav nav-fill nav-pills'>
+        <a class='nav-link nav-item' href='index.html' style='padding-left: 79px; padding-right: 79px;'>Home</a>
+        <a class='nav-link active nav-item' href='Nayak_AboutMe.html' style='padding-left: 79px; padding-right: 79px;'>About Me</a>
+        <a class='nav-link nav-item' href='Nayak_Resume.html' style='padding-left: 79px; padding-right: 79px;'>Resume</a>
+        <a class='nav-link nav-item' href='Nayak_Projects.html' style='padding-left: 79px; padding-right: 79px;'>Projects</a>
+        <a class='nav-link nav-item' href='Nayak_ContactMe.html' style='padding-left: 79px; padding-right: 79px;'>Contact Me</a>
+        <!--The nav contains many links that take the user to different sites in order to view different information. The active link is highlighted on the page-->
+      </nav>
+    </div>
+  </header>
+  <section class='jumbotron' style='background-image: url(sparkle.jpeg)'>
+    <div class='container'>
+      <div class='row justify-content-center'>
+        <h1>Online Portfolio</h1>
+      </div>
+      <div class='row justify-content-center'>
+        <h3>Anmol Nayak</h1>
+      </div>
+    </div> <!--These elements are in a container in a jumbotron and are centered using justify-content-center-->
+  </section>
+  <section class='container'>
+    <div class='row'>
+      <div class='col-sm-5'> <!--First half of site is dedicated to this one image-->
+        <img src='IMG_0553.png' class='rounded float-right' style='height: auto; width: 400px; padding-bottom: 30px; padding-left: 70px;'/> <!--This image is sized to fit nicely on the website with img-thumbnail making a border-->
+      </div>
+      <div class='col-sm-6'> <!--Second half of page is dedicated to the writing part-->
+        <p style='padding-left: 70px;' class='float-right'>Anmol Nayak is a hard-working Dublin High School Freshman that always tries to challenge himself and go above and beyond for himself. He plans to someday be an independent video game designer and takes many measures in order to achieve that goal. <br><br>Currently, he is familiarizing himself with multiple different game developing programs such as Unity and Craft Studio. He is incredibly motivated and determined to do work the best he can and can only be happy about his work if he tries his absolute best. He learns and becomes inspired by others who work with technology and has a shown interest in creating software. <br><br>Anmol first started to work with code and technology when he took his first class with the coding school, Youngwonks. The school taught him how to think about the problems faced in coding and how to work with peers. Currently, he is a CSP student who is learning teamwork skills as well as the history of technology. He hopes that his future will become a bright one, and that he can create something that he could truly be proud of.</p> <!--This paragraph is an element that contains information about Anmol Nayak-->
+      </div>
+    </div>
+  </section>
+    <footer class='jumbotron' style='background-image: url(sparkle.jpeg)'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-6'> <!--Places the first two images on the first half of the website-->
+          <a href='mailto:getcashforapps.nayak@gmail.com' target="_blank"><img src='Images/gmail.png' class='float-left img-fluid-footericons' alt='Link to contact via gmail'></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+          <a href='https://www.reddit.com/user/UNICORN-and-a-DRAGON/' target="_blank"><img src='Images/reddit.png' class='float-right img-fluid-footericons' alt='Link to contact via reddit'></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+        </div>
+        <div class='col-6'> <!--Second half of the page so that the element can be on the very right side-->
+          <a href='https://www.dublin.k12.ca.us/dhs' target="_blank"><img src='Images/DHS2.png' class='float-right' alt='Dublin High School logo'/></a> <!--Image is a link to the designated location and properly adjusted via classes to have user contact me-->
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
